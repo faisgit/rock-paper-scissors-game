@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+  <main class="flex flex-col items-center justify-center h-screen">
+    <h1 class="font-bold text-3xl mb-3">Rock Paper Scissors Game </h1>
+    <section class="flex flex-col justify-center items-center shadow-lg px-10 py-5 rounded-md ">
+      <div class="flex items-center">
+        <h1 class="font-semibold">Computer Choices : </h1>
+        <img src="" alt="" id="display-computer-choices">
+      </div>
+      <div class="flex items-center">
+        <h1 class="font-semibold ">User Choice : </h1>
+        <img src="" alt="" id="display-user-choices">
+      </div>
+      <div class="flex items-center mb-3">
+        <h1 class="font-semibold">Result : </h1>
+        <img src="" alt="" id="display-result">
+      </div>
+      <div>
+        <button id="rock" class="font-semibold border-2 border-solid border-black rounded-lg px-3 py-1 hover:bg-black hover:text-white duration-700">rock</button>
+        <button id="paper" class="font-semibold border-2 border-solid border-black rounded-lg px-3 py-1 hover:bg-black hover:text-white duration-700">paper</button>
+        <button id="scissors" class="font-semibold border-2 border-solid border-black rounded-lg px-3 py-1 hover:bg-black hover:text-white duration-700">scissors</button>
+      </div>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
